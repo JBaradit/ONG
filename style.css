@@ -2,18 +2,15 @@ body {
     background-color: #2B2E39;
 }
 
-.cambioColor {
+.letras {
     color: #ffffff;
     list-style-type: none;
     text-decoration: none;
-}
-
-.cambioColor :hover {
-    color: #c0c0c0;
-}
-
-.letras {
     font-family: sans-serif;
     width: 20%;
     font-weight: bold;
+}
+
+.letras :hover {
+    color: #c0c0c0;
 }
