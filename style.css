@@ -3,17 +3,16 @@ body {
 }
 
 .cambioColor {
-    list-style-type: none;
     color: #ffffff;
-    font-family: sans-serif;
-    width: 20%;
+    list-style-type: none;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .cambioColor :hover {
-    list-style-type: none;
     color: #c0c0c0;
+}
+
+.letras {
     font-family: sans-serif;
     width: 20%;
     font-weight: bold;
