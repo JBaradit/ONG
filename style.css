@@ -1,82 +1,95 @@
+.tarjeta {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+
+.tarjeta img {
+    border: #808080 solid 1px;
+    height: 37vh;
+    width: 37vh;
+}
+
 body {
-    margin: 0;
-    padding: 0px;
+    font-family: sans-serif, monospace;
 }
 
-.parent {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-}
-
-.superchild {
-    display: flex;
-    align-items: stretch;
-    width: 20%;
-    padding-top: 0;
-}
-
-.superchild2 {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-}
-
-.child1 {
-    background: rgb(46, 46, 46);
-    width: 100%;
-}
-
-.child1 ul {
-    padding: 0px 0px 0px 16px;
-}
-
-.child1 li {
-    list-style-type: none;
-    text-align: left;
-}
-
-a {
-    color: white;
+.tarjeta a {
     text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
 }
 
-a:hover {
-    color: lightgray;
+.tarjeta li {
+    list-style: none;
+    border: grey solid 2px;
+    text-align: center;
 }
 
-a:visited {
-    color: black
+.tarjeta p {
+    padding-top: 15px;
 }
 
-.child2 {
-    padding-left: 20px;
-    width: 100%;
-    height: 25%;
-    background: cyan;
+.ficha {
+    display: flex;
+    flex: 1;
 }
 
-.child3 {
-    padding-left: 0px;
-    width: 100%;
-    height: 25%;
-    background: yellow;
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.child4 {
-    width: 100%;
-    height: 25%;
-    background: orange;
+.title2 {
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.child5 {
-    width: 100%;
-    height: 25%;
-    background: red;
+.bio li {
+    padding: 10px;
+    list-style: none;
 }
 
-img {
-    float: left;
-    width: 50px;
-    vertical-align: middle;
+.bor {
+    height: 40vh;
+    padding-top: 10px;
+}
+
+.description-container{
+    display: flex;
+}
+
+
+.description{
+    display: flex;
+}
+
+.description-left{
+    flex: 1;
+}
+
+.description-right{
+    flex: 1;
+    width: 15%;
+    text-align: right;
+}
+
+.description ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.description li{
+    border-bottom: 2px black solid;
+}
+
+.description ul{
+    margin-bottom: 0px;
+}
+
+.description p{
+    font-weight: bold;
+    margin-bottom: 0px;
 }
