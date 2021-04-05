@@ -33,7 +33,6 @@ body {
 
 .ficha {
     display: flex;
-    flex: 1;
 }
 
 .title {
@@ -53,43 +52,66 @@ body {
 }
 
 .bor {
-    height: 40vh;
+    height: 85vh;
+    width: 85vh;
     padding-top: 10px;
 }
 
-.description-container{
+.tarjeta {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+
+.tarjeta img {
+    border: #808080 solid 1px;
+    height: 37vh;
+    width: 37vh;
+}
+
+body {
+    font-family: sans-serif, monospace;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+}
+
+.tarjeta li {
+    list-style: none;
+    border: grey solid 2px;
+    text-align: center;
+}
+
+.tarjeta p {
+    padding-top: 15px;
+}
+
+.ficha {
     display: flex;
 }
 
-
-.description{
-    display: flex;
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.description-left{
-    flex: 1;
+.title2 {
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.description-right{
-    flex: 1;
-    width: 15%;
-    text-align: right;
-}
-
-.description ul{
-    padding: 0px;
+.bio li {
+    padding: 10px;
     list-style: none;
 }
 
-.description li{
-    border-bottom: 2px black solid;
-}
-
-.description ul{
-    margin-bottom: 0px;
-}
-
-.description p{
-    font-weight: bold;
-    margin-bottom: 0px;
+.bor {
+    height: 85vh;
+    width: 85vh;
+    padding-top: 10px;
 }
