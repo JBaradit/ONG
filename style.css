@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-.tarjetas{
+.tarjetas {
     margin-top: 3em;
 }
 
-.row{
+.row {
     text-align: center;
 }
 
-.row + .row{
+.row+.row {
     margin-top: 3em;
 }
 
@@ -42,22 +41,43 @@ body {
     padding-top: 10px;
 }
 
-.menu-icon{
+.menu-icon {
     color: white;
     padding-right: 0.5em;
 }
 
-.navbar{
+.navbar {
     padding-left: 0.5em;
     color: white;
     background-color: #2e2e33;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
 }
 
-.menu-categorias{
-  justify-content: center;
+.menu-categorias {
+    justify-content: center;
 }
 
+.btn-info {
+    background-color: #808080;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.imagen1 {
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.formulario {
+    margin-top: 30px;
+    border: 1px solid #808080;
+}
+
+.imagen {
+    align-self: center;
+}
